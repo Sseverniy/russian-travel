@@ -1,0 +1,12 @@
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link_section_place {
+  text-decoration: underline;
+}
+
+.link:hover {
+  cursor: pointer;
+}
