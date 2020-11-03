@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+    .place {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(340px, 1fr));
+        gap: 0 28px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 48px 28px;
+        margin: 80px 48px 0;
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place {
+        margin: 80px 148px 0;
+
+    }
+}

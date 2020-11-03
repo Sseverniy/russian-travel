@@ -1,8 +1,6 @@
 .intro {
   position: relative;
   margin: 64px auto 0;
-  min-width: 288px;
-  max-width: 690px;
   width: 100%;
   box-sizing: border-box;
 }

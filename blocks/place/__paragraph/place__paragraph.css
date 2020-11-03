@@ -5,6 +5,27 @@
   font-size: 16px;
   line-height: 26px;
   color: #FFFFFF;
-  margin: 32px auto 50px;
+  margin: 32px auto 25px;
   width: 90vw;
+}
+
+.place__paragraph:last-child {
+  margin: 0 auto 49px;
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraph {
+      width: fit-content;
+      
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+      width: fit-content;
+      margin-top: 0;
+  }
+  .place__paragraph:last-child {
+    margin: 0 auto 49px;
+  }
 }

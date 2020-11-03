@@ -2,5 +2,10 @@
     background: #2A2C2F;
     min-width: 320px;
     margin: 0 auto;
+    position: relative;
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
