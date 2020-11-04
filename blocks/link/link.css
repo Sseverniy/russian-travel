@@ -3,10 +3,15 @@
   text-decoration: none;
 }
 
-.link_section_place {
-  text-decoration: underline;
-}
-
 .link:hover {
   cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .link {
+    transition: opacity 0.3s linear;
+  }
+  .link:hover {
+    opacity: 0.8;
+  }  
 }

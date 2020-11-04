@@ -1,0 +1,10 @@
+.place__link-cover {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .place__link-cover {
+    display: block;
+    margin: auto 0 0;
+  }
+}
