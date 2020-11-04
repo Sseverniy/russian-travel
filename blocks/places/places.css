@@ -2,3 +2,21 @@
   position: relative;
   margin: 64px 0;
 }
+
+@media screen and (min-width: 768px) {
+  .places {
+    margin: 88px 3.125vw 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    margin: 92px 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    margin: 92px 100px 0;
+  }
+}

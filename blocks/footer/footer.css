@@ -1,14 +1,19 @@
 .footer {
   position: relative;
-  margin: 64px 118px 24px 16px;
-
+  margin: 64px 0 24px 16px;
 }
 
 @media screen and (min-width: 768px) {
   .footer {
     display: flex;
     justify-content: space-between;
-    margin: 12vh 3.2vw 24px;
+    margin: 8.5vh 3.125vw 24px;
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin: 9vh 0 24px;
   }
 }
