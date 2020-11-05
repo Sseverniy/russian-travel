@@ -2,6 +2,7 @@
 @import url(../vendor/normalize.css);
 /* импортируем блоки */
 @import url(../blocks/page/page.css);
+@import url(../blocks/main/main.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
@@ -25,6 +26,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
@@ -39,5 +41,6 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
+
 /* импортируем модификаторы*/
-@import url(../blocks/intro/__list/_span_accent/intro__list_span_accent.css);
+

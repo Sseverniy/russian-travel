@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
   .place {
     display: grid;
-    grid-template-columns: repeat(2, minmax(340px, 1fr));
+    grid-template-columns: 44.27vw 45.83vw;
     gap: 48px 28px;
     margin-top: 72px;
   }
@@ -12,7 +12,7 @@
 
 @media screen and (min-width: 1024px) {
   .place {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 42.97vw 44.53vw;
     margin-top: 80px;
     gap: 48px 32px;
   }
@@ -20,6 +20,6 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-
+    grid-template-columns: 35.94vw 37.81vw;
   }
 }

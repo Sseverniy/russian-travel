@@ -7,13 +7,13 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    margin: 8.5vh 3.125vw 24px;
+    margin: 11.45vw 3.125vw 24px;
     align-items: center;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
-    margin: 9vh 0 24px;
+    margin: 92px 0 24px;
   }
 }

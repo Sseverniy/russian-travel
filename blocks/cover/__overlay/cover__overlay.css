@@ -22,7 +22,7 @@
   right: 0;
   background: #2A2C2F;
   opacity: 0.3;
-  transition: opacity 0.3s easy;
+  transition: opacity 0.3s linear;
 }
 
 @media screen and (min-width: 768px) {
@@ -35,16 +35,16 @@
   .cover__overlay {
     margin: 92px -48px 0;
     width: 110%;
-    transition: opacity 0.3s linear;
   }
-  .cover__overlay:hover {
+  .cover__overlay:hover::before {
     opacity: 0.8;
   }
 }
 
 @media screen and (min-width: 1184px) {
-  .cover {
+  .cover__overlay {
     margin: 92px auto 0;
     width: 100%;
   }
 }
+
