@@ -6,10 +6,12 @@
   color: #FFFFFF;
   margin: 32px auto 25px;
   width: 90vw;
+  max-width: 100%;
 }
 
 .place__paragraph:nth-child(2) {
   margin: 0 auto 49px;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -18,7 +20,7 @@
     margin: 0;  
   }
   .place__paragraph:nth-child(2) {
-    margin: 0;
+    margin: 25px auto 0;
   }  
 }
 
@@ -27,9 +29,8 @@
     font-size: 18px;
     line-height: 163%;
     width: fit-content;
-    margin-top: 0;
   }
   .place__paragraph:nth-child(2) {
-    margin: 0 auto 49px;
+    margin-top: 27px;
   }
 }

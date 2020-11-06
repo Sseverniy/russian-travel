@@ -1,3 +1,7 @@
+.place {
+  max-width: 948px;
+}
+
 @media screen and (min-width: 768px) {
   .place {
     display: grid;
@@ -20,6 +24,6 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-    grid-template-columns: 35.94vw 37.81vw;
+    grid-template-columns: 460px 484px;
   }
 }
